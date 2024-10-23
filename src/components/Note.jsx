@@ -14,7 +14,6 @@ function Note(props) {
 
   const user = auth.currentUser;
   const uid = user ? user.uid : null;
-  console.log("ะนนา" + user);
 
   const handleSaveNote = async () => {
     const db = getFirestore();
